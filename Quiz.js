@@ -55,7 +55,11 @@ function check(){
             document.getElementById("output").innerHTML = "";
            
         }
-        
+      
+    }
+    else
+    {
+        document.getElementById("output").innerHTML = "";
     }
 
     if (question_turn == "player1")
